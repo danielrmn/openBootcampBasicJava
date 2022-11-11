@@ -1,6 +1,8 @@
-package sesiones_4_5.Tema4SmartDevice;
+package sesiones_4_5.tema4;
 
-public class SmartWatch extends SmartDevice{
+import sesiones_4_5.tema4.SmartDevice;
+
+public class SmartWatch extends SmartDevice {
 
     String watchbandColor;
     boolean sensor;
