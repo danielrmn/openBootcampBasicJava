@@ -13,7 +13,7 @@ public class Main {
        cocheCrud.save(mercedes);
        cocheCrud.save(ferrari);
        cocheCrud.save(pepitas);
-       
+
        cocheCrud.delete(pepitas);
 
        String showData = cocheCrud.findAll().toString();
